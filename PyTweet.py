@@ -53,7 +53,8 @@ class Example(tk.Frame):
         #set picture
         self.canvas = tk.Canvas(root, width=250, height=250)
         self.canvas.pack()
-        self.background_image = tk.PhotoImage(file='/Users/gemclaw/Downloads/twitter_bird.gif')
+        #insert photo from path on computer
+        self.background_image = tk.PhotoImage(file='')
         self.canvas.create_image(125, 125, image=self.background_image)
 
         # create a prompt, an input box, and buttons!
