@@ -54,6 +54,7 @@ class Example(tk.Frame):
         self.canvas = tk.Canvas(root, width=250, height=250)
         self.canvas.pack()
         #insert photo from path on computer
+        # I used this image: http://www.ustream.tv/blog/wp-content/uploads/2008/04/twitter_bird.gif
         self.background_image = tk.PhotoImage(file='')
         self.canvas.create_image(125, 125, image=self.background_image)
 
